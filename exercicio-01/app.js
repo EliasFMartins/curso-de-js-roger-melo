@@ -13,10 +13,11 @@ Faça o seguinte:
 /*
 02 - Inicie o seu servidor local e abra o console do browser.
 */
-
+window.ale
 /*
 03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
 "JS is Awesome!" em um alert no browser.
+
 
 Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos  
 "alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
@@ -24,7 +25,7 @@ Como mencionei durante a aula: não se preocupe em entender 100% o que os comand
 Utilize os espaços entre os comentários abaixo para executar os códigos dos 
 exercícios. Inclusive o alert mencionado acima.
 */
-
+// window.alert('oiiee')
 
 
 /*
@@ -35,6 +36,7 @@ exercícios. Inclusive o alert mencionado acima.
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
 dígitos. Ex.: 1930.
 */
+const myBirthYear=1996;
 
 
 
@@ -42,12 +44,12 @@ dígitos. Ex.: 1930.
 06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
 */
 
-
+const currentYear=2022;
 
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
 */
-
+console.log(myBirthYear,currentYear);
 
 
 /*
@@ -61,9 +63,11 @@ acontece.
 
 - Exiba a "myAge" no console.
 */
+const myAge=currentYear-myBirthYear
+console.log(myAge);
 
-
-
+const ten=10;
+console.log(2032,36)
 /*
 09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número  
 10 e:
