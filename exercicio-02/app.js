@@ -17,7 +17,12 @@
 
 Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
 */
+// console.log('Grandes poderes trazem grandes responsabilidades.')
 
+// const tom='Tom'
+// const firstTom='Hanks'
+// const secondTom='Cruise'
+// const myFavoriteTom='Tom Hanks '
 
 
 /*
@@ -29,6 +34,7 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Declare uma constante "myFavoriteTom" que recebe nome, espaço, e sobrenome do Tom que você mais gosta;
 - Exiba a "myFavoriteTom" no console do browser.
 */
+// console.log(myFavoriteTom)
 
 
 
@@ -40,9 +46,15 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - As letras não devem ser digitadas manualmente;
 - Exiba a "js" no console do browser;
 */
-
-
-
+// const array=[1,2,3]
+// const arrayPar=array.filter(e=>e%2==0)
+// console.log(arrayPar)
+// const 
+// const js=programmingLanguage.filter((a=>{
+//   // a='a'||a='s';
+// }))
+// console.log(js)
+programmingLanguage='JavaScript';
 /*
 06 - Comente o console.log acima, e,
 
@@ -52,6 +64,8 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 */
 
 const mozilla = 'Mozilla Developer Network'
+const fire=mozilla.split(' ');
+// console.log(fire[0][0],fire[1][0],fire[2][0]);
 
 /*
 07 - Comente o console.log acima, e,
@@ -70,6 +84,7 @@ const mozilla = 'Mozilla Developer Network'
 */
 
 let randomWord = 'Araponga'
+
 
 /*
 09 - Comente o console.log acima, e,
@@ -115,6 +130,7 @@ const winterMessage = 'o inverno está chegando'
 */
 
 const harryPotterAuthor = 'J.K. Rowling'
+console.log(harryPotterAuthor.slice(0,4));
 
 /*
 14 - Comente o console.log acima, e,
@@ -125,6 +141,9 @@ const harryPotterAuthor = 'J.K. Rowling'
 */
 
 const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
+const realBestMovie=
+'E o Oscar de melhor filme vai para: "Moonlight"!'
+// console.log(realBestMovie);
 
 /*
 15 - Comente o console.log acima, e,
@@ -132,7 +151,8 @@ const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 - Abaixo deste comentário, armazene o resto de 10 dividido por 3 em uma constante "reminder";
 - Exiba a reminder no console. O resultado deve ser 1;
 */
-
+const reminder=10%3;
+// console.log(reminder);
 
 
 /*
@@ -144,6 +164,8 @@ const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!'
 */
 
 let episodes = 6
+episodes++
+// console.log(episodes);
 
 /*
 17 - Comente o console.log acima, e,
@@ -152,7 +174,8 @@ let episodes = 6
 - Após o decremento, exiba a let "episodes" no console;
 - O valor exibido no console deve ser 6.
 */
-
+episodes--
+// console.log(episodes);
 
 
 /*
@@ -161,7 +184,8 @@ let episodes = 6
 - Utilize o operador addition assignment para atualizar o valor da let "episodes" para 10;
 - Após a atribuição, exiba a let "episodes" no console.
 */
-
+episodes+=4
+console.log(episodes);
 
 
 /*
@@ -171,7 +195,8 @@ let episodes = 6
 - Insira a let "episodes" no lugar de "NUMERO_DE_EPISÓDIOS";
 - Exiba a "allEpisodes" no console.
 */
-
+const allEpisodes=`O nº de episódios é: ${episodes}`
+// console.log(allEpisodes)
 
 
 /*
@@ -183,8 +208,8 @@ let episodes = 6
 - Não use template strings.
 */
 
-// const bookMessage = ''O Conto da Aia' é um dos livros mais vendidos da década.'
-// console.log(bookMessage)
+const bookMessage = '',O Conto da Aia', é um dos livros mais vendidos da década.'
+console.log(bookMessage)
 
 /*
 21 - Comente o console.log acima (e a const bookMessage caso não tenha descoberto a resolução), e,
