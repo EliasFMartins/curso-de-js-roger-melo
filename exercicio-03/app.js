@@ -9,7 +9,7 @@
 /*
 02 - Armazene um array vazio em uma let "brazilianFoods";
 */
-
+let brazilianFoods =[]
 
 
 /*
@@ -21,8 +21,8 @@
 
 - Exiba a brazilianFoods no console.
 */
-
-
+brazilianFoods.push('coxinha',null,'brigadeiro');
+// console.log(brazilianFoods);
 
 /*
 04 - Comente o console.log acima e:
@@ -31,7 +31,14 @@
 array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Exiba apenas o 2º item desse array no console.
 */
-
+brazilianFoods.splice(1,1,'pão de queijo');
+console.log(brazilianFoods);
+let texto ='eu andei ,por muitos caminhos, e não tive '
+const texto2 = texto.split(' ')
+// console.log(texto2[2]);
+// brazilianFoods.unshift('beterraba')
+brazilianFoods.shift();
+console.log(brazilianFoods)
 
 
 /*
